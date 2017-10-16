@@ -8,6 +8,7 @@
 
   <link rel="stylesheet"  href="css/jquery.mobile.structure.css" />
   <link rel="stylesheet" href="css/jquery.mobile.theme.css" />
+
   
   <script>
     var userAgent = navigator.userAgent + '';
@@ -38,9 +39,15 @@
     	</div><!-- /header -->
 
     	<div data-role="content">
-            <p id="geolocation">
-                Finding geolocation....
-            </p>
+
+        <div>
+          <button onClick="getLocation()">Show Location</button>
+        </div>
+
+        <div id="geolocation">
+          
+        </div>
+
     	</div><!-- /content -->
 
     	<div data-role="footer">
